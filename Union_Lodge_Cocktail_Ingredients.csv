@@ -1,0 +1,88 @@
+Cocktail,Ounces,mL,Ingredient,Type
+Absinthe Cocktail,1.5,45,Absinthe,Absinthe
+Amaretto Sour,1.5,45,Amaretto,Base
+Sherry Cobbler,0.5,15,Amaretto,Base
+Amaretto Sour,0.5,15,Angostura,Bitter
+Japanese Cocktail,0.5,15,Angostura,Bitter
+Milwaukee,0.5,15,Angostura,Bitter
+Old Fashioned,0.125,3.75,Angostura,Bitter
+Allegheny,0.5,15,Aperol,Apertif
+Ramos Gin Fizz,0.05,1.5,Berry Tincture,Tincture
+Allegheny,0.75,22.5,Blackberry Liquor,Modifier
+Rob Roy,0.5,15,Blanc Vermouth,Vermouth
+Amaretto Sour,0.75,22.5,Bourbon,Base
+Southern Mint Julep,2,60,Bourbon,Base
+Brandy Crusta,1.5,45,Brandy,Base
+Milwaukee,2,60,Brandy,Base
+Northern Mint Julep,1.5,45,Brandy,Base
+Sherry Cobbler,0.5,15,Brandy,Base
+Sazerac,0.25,7.5,Brown Gomme,Syrup
+Red White and Blue Blazer,1,30,Cinammon Syrup,Syrup
+Japanese Cocktail,2,60,Cognac,Base
+Saratoga,1,30,Cognac,Base
+Brandy Crusta,0.5,15,Cointreau,Modifier
+Knickerbocker,0.75,22.5,Cointreau,Modifier
+Ramos Gin Fizz,2,60,Cream,Other
+Allegheny,0.75,22.5,Dry Vermouth,Vermouth
+Rob Roy,0.5,15,Dry Vermouth,Vermouth
+Amaretto Sour,0.5,15,Egg White,Other
+Ramos Gin Fizz,0.5,15,Egg White,Other
+Gin and Seasonal Tonic,2,60,Gin,Base
+Gin and Tonic,2,60,Gin,Base
+Martinez,2,60,Gin,Base
+Ramos Gin Fizz,2,60,Gin,Base
+Tom Collins,2,60,Gin,Base
+Absinthe Cocktail,0.25,7.5,Green Chartreuse,Modifier
+Northern Mint Julep,0.5,15,Green Tea Syrup,Syrup
+Rum and Green Tea Tonic,0.75,22.5,Green Tea Tonic,Syrup
+Manhattan,0.2,6,House Bitters,Bitter
+Rob Roy,0.125,3.75,Jerry Thomas Bitters,Bitter
+Amaretto Sour,0.75,22.5,Lemon Juice,Citrus
+Brandy Crusta,0.75,22.5,Lemon Juice,Citrus
+Knickerbocker,0.5,15,Lemon Juice,Citrus
+Ramos Gin Fizz,0.75,22.5,Lemon Juice,Citrus
+Tom Collins,0.75,22.5,Lemon Juice,Citrus
+Absinthe Cocktail,0.25,7.5,Lemon Rhubarb Bitters,Bitter
+Brandy Crusta,0.5,15,Luxardo,Modifier
+Martinez,0.25,7.5,Luxardo,Modifier
+Martinez,0.5,15,Orange Bitters,Bitter
+Old Fashioned,0.05,1.5,Orange Bitters,Bitter
+Tom Collins,0.5,15,Orange Bitters,Bitter
+Ramos Gin Fizz,0.1,3,Orange Flower Water,Other
+Sherry Cobbler,0.5,15,Orange Juice,Citrus
+Japanese Cocktail,0.5,15,Orgeat,Syrup
+Sazerac,0.125,3.75,Peychaud's ,Bitter
+Rob Roy,0.1,3,Port,Port
+Southern Mint Julep,0.075,2.25,Rose Water,Other
+Tom Collins,0.75,22.5,Rosemary Ginger Syrup,Syrup
+Knickerbocker,1.5,45,Rum,Base
+Northern Mint Julep,0.5,15,Rum,Base
+Red White and Blue Blazer,1,30,Rum,Base
+Red White and Blue Blazer,1,30,Rum,Base
+Rum and Green Tea Tonic,2,60,Rum,Base
+Allegheny,1.5,45,Rye,Base
+Manhattan,2,60,Rye,Base
+Old Fashioned,2,60,Rye,Base
+Red White and Blue Blazer,1,30,Rye,Base
+Saratoga,1,30,Rye,Base
+Sazerac,2,60,Rye,Base
+Rob Roy,2,60,Scotch,Base
+Gin and Seasonal Tonic,0.75,22.5,Seasonal Tonic,Syrup
+Sherry Cobbler,2,60,Sherry,Sherry
+Amaretto Sour,0.25,7.5,Simple Syrup,Syrup
+Knickerbocker,0.5,15,Simple Syrup,Syrup
+Milwaukee,0.25,7.5,Simple Syrup,Syrup
+Ramos Gin Fizz,0.75,22.5,Simple Syrup,Syrup
+Southern Mint Julep,0.5,15,Simple Syrup,Syrup
+Gin and Seasonal Tonic,3,90,Carbonated Water,Soda
+Gin and Tonic,3,90,Carbonated Water,Soda
+Milwaukee,0.25,7.5,Carbonated Water,Soda
+Old Fashioned,0.25,7.5,Carbonated Water,Soda
+Ramos Gin Fizz,1,30,Sparkling Mineral Water,Seltzer
+Rum and Green Tea Tonic,3,90,Carbonated Water,Soda
+Tom Collins,1,30,Carbonated Water,Soda
+Manhattan,1,30,Sweet Vermouth,Vermouth
+Martinez,1,30,Sweet Vermouth,Vermouth
+Saratoga,1,30,Sweet Vermouth,Vermouth
+Gin and Tonic,0.75,22.5,Tonic,Syrup
+Ramos Gin Fizz,0.05,1.5,Vanilla Tincture,Tincture
