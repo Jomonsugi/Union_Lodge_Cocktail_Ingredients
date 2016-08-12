@@ -1,5 +1,5 @@
-This folder includes my final version with 'Type' used as a variable (union_chart_sixth.html) and another version that does
-not include 'Type' as a variable (union_chart_fifth). That version is a bit cleaner, but lacks information that I 
+This repository includes a final version with 'Type' used as a variable (union_chart_final.html) and another version that does
+not include 'Type' as a variable (union_chart_sixth). That version is a bit cleaner, but lacks information that I 
 felt I needed based on feedback. The previous versions are all drafts saved working up to these two final charts. 
 
 The dataset was created by me. It lists all the cocktails served at Union Lodge #1 in Denver, Colorado that 
