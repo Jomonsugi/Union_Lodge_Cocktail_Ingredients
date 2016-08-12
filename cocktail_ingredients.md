@@ -1,6 +1,6 @@
 ## Summary
 
-This data vizualization shows all the liquid cocktail ingredients used in cocktails 
+The data vizualization shows all the liquid cocktail ingredients used in cocktails 
 (featured in the menu) at Union Lodge #1 in Denver, Colorado. The chart provides a 
 comparison of the ingredients used. It provides a snapshot of the bar.
 The viewer can see what is used most, what is used in small quanity, and what is not 
