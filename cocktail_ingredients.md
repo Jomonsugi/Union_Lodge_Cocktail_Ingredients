@@ -149,14 +149,20 @@ Past that I used a lot of webpages that helped me out:
 http://nestacms.com/docs/creating-content/markdown-cheat-sheet
 
 http://assemble.io/docs/Cheatsheet-Markdown.html
-https://github.com/PMSI-AlignAlytics/dimple/issues/156
-http://learnjsdata.com/read_data.html
-http://dimplejs.org/
-http://dimplejs.org/adhoc_viewer.html?id=adhoc_bar_custom_tooltips
-http://stackoverflow.com/questions/17791926/how-to-rotate-x-axis-text-in-dimple-js
-http://www.perceptualedge.com/articles/visual_business_intelligence/rules_for_using_color.pdf
-http://app.raw.densitydesign.org/#%2F
 
+https://github.com/PMSI-AlignAlytics/dimple/issues/156
+
+http://learnjsdata.com/read_data.html
+
+http://dimplejs.org/
+
+http://dimplejs.org/adhoc_viewer.html?id=adhoc_bar_custom_tooltips
+
+http://stackoverflow.com/questions/17791926/how-to-rotate-x-axis-text-in-dimple-js
+
+http://www.perceptualedge.com/articles/visual_business_intelligence/rules_for_using_color.pdf
+
+http://app.raw.densitydesign.org/#%2F
 
 
 
