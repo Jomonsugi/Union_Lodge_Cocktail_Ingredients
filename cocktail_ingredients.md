@@ -1,12 +1,12 @@
 ## Summary
 
-This data vizualization shows all the liquid cocktail ingredients used in cocktails (featured in the menu) at Union Lodge #1
-in Denver, Colorado. The chart's purpose is to give the viewer a snapshot
-of what the bar uses, and the volume of each ingredient used. The volume 
-in mL is calculated by adding up the total volume of a particular ingredient 
-used across all cocktails in the menu (unfortunately making me think of trashcan punch). 
-The chart gives a sense of what the bar focuses on, and what it does not 
-(like vodka...there is none at Union Lodge #1).
+This data vizualization shows all the liquid cocktail ingredients used in cocktails 
+(featured in the menu) at Union Lodge #1 in Denver, Colorado. The chart provides a 
+comparison of the ingredients used. The viewer can see what is used most, 
+what is used in small quanity, and what is not used at all in cocktails featured 
+on the menu (like vodka...there is none at Union Lodge #1). The volume in mL is 
+calculated by adding up the total volume of a particular ingredient used across all 
+cocktails in the menu. 
 
 ### Design
 
@@ -25,11 +25,10 @@ After shifting to a stacked bar chart with some interesting options available th
 dimple and d3, I think the chart is interesting, informative, and fun to play with. 
 
 The goal of the chart is to give the viewer an understanding and comparison of the types 
-of the liquid ingredients used in the menu cocktails at Union Lodge #1. You can easily see 
-what is used most, what is used in small quanity, and what is not used at all in cocktails 
-featured on the menu. Past that I wanted more information available through the visualization
-and through feedback, I found out others did as well. The interactive features served this purpose.
-The tooltips offer more information for those who want it.
+of the liquid ingredients used in the menu cocktails at Union Lodge #1. Past that I wanted
+more information available through the visualization and through feedback, I found out others
+did as well. The interactive features served this purpose. The tooltips offer more information 
+for those who want it.
 
 I made a few edits to the visualization based on feedback that I received
 from others: 
