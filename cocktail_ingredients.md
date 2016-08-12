@@ -2,11 +2,11 @@
 
 This data vizualization shows all the liquid cocktail ingredients used in cocktails 
 (featured in the menu) at Union Lodge #1 in Denver, Colorado. The chart provides a 
-comparison of the ingredients used. The viewer can see what is used most, 
-what is used in small quanity, and what is not used at all in cocktails featured 
-on the menu (like vodka...there is none at Union Lodge #1). The volume in mL is 
-calculated by adding up the total volume of a particular ingredient used across all 
-cocktails in the menu. 
+comparison of the ingredients used. It provides a snapshot of the bar.
+The viewer can see what is used most, what is used in small quanity, and what is not 
+used at all in cocktails featured on the menu (like vodka...there is none at Union Lodge #1). 
+The volume in mL is calculated by adding up the total volume of a particular ingredient used 
+across all cocktails in the menu. 
 
 ### Design
 
