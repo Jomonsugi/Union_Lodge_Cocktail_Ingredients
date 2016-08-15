@@ -1,3 +1,7 @@
+The clear conclusion from this data visualization is that across all cocktails
+on the menu, Rye and Gin are featured over any other alcoholic ingredient. 
+Carbonated Water is used more than 
+
 This repository includes a final version with 'Type' used as a variable 
 (union_chart_final.html) and another version that does not include 'Type' 
 as a variable (union_chart_sixth). That version is a bit cleaner, but lacks 
