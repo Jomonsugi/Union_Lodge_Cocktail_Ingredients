@@ -14,8 +14,8 @@ and the Ramos Gin Fizz.
 
 A viewer that is interested can easily dig deeper for secondary conclusions (if they wish), 
 such as which citrus is represented more than any other (lemon) or which bitters (Angostura).
-They can also see that is not present, as it was not used in any American pre-prohibition 
-cocktail recipes.
+They can also see what is not present (for example vodka), as it was not used in any 
+American pre-prohibition cocktail recipes.
 
 This repository includes a final version with titled (union_chart_final.html) 
 The previous versions are all drafts saved working up to the final charts. 
