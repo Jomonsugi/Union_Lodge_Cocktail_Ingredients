@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="http://d3js.org/d3.v3.min.js"></script>
+  <script src="http://dimplejs.org/dist/dimple.v2.0.0.min.js"></script>
+
+  <style>
+    h2.mainhead {
+      text-align: center;
+      font-weight: bold;
+    }
+
+    h2.subhead {
+      text-align: center;
+      font-weight: normal;
+    }
+
+	text.dimple-axis.dimple-title {
+      font-size: 20px !important;
+    }
+
+  g.dimple-axis > g.tick > text{
+      font-size: 12px !important;
+    }
+
+   div.tooltip {
+                line-height: 1;
+                font-weight: bold;
+                text-align: justify;
+                padding: 12px;
+                background: #8DD3C7;
+                color: black;
+                border-radius: 6px;
+                padding: 5px;
+            }
+
+  div.tooltip2 {
+                color: black;
+                font-weight: bold;
+                background: none;
+                border-radius: 6px;
+                padding: 5px;
+            }
+
+
+body {
+      width: 100vw;
+      height: 100vh;
+      text-align: center;
+    }
+
+            #container {
+                margin: auto;
+            }
+
+  </style>
+
+    <script type="text/javascript">
+      function draw(data) {
+      
+      /*
+        D3.js setup code
+      */
+
+        "use strict";
+
+        var margin = 500,
+              width = 1400 - margin,
+              height = 600 - margin;
+
+	    d3.select('body ')
+            .append('h2')
+            .attr("class", "mainhead")
+            .text("Union Lodge #1 (a pre-Prohibition cocktail bar)");
+
+      d3.select('body ')
+            .append('h2')
+            .attr("class", "mainhead") 
+            .text("Liquid Ingredients");  
+
+        d3.select('body ')
+            .append('h2')
+            .attr("class", "subhead")
+            .text("by total volume of all menu cocktails");
+
+
+        var svg = d3.select("body")
+            .append("svg")
+            .attr("width", width + margin)
+            .attr("height", height + margin)
+            .append('g')
+            .attr('class','chart');
+
+        var tooltip = d3.select("body")
+            .append("div")
+            .attr("class", "tooltip")
+            .style("position", "absolute")
+            .style("z-index", "1000")
+            .style("visibility", "hidden")
+            .text("a simple tooltip");
+
+        var tooltip2 = d3.select("body")
+            .append("div")
+            .attr("class", "tooltip2")
+            .style("position", "absolute")
+            .style("z-index", "1000")
+            .style("top", 325 + "px")
+            .style("left", "40%")
+            .style("right", "30%")
+            .style("width", "20%")
+            .style("visibility", "hidden")
+            .text("a simple tooltip");
+      /*
+        Dimple.js Chart construction code
+      */
+
+        var myChart = new dimple.chart(svg, data);
+        myChart.setMargins("60px", "30px", "110px", "200px");
+        var x = myChart.addCategoryAxis("x", "Ingredient"); 
+        myChart.addMeasureAxis("y", "mL");
+        var mySeries2 = myChart.addSeries(["Type"]);
+
+        var mySeries = myChart.addSeries('Cocktail', dimple.plot.bar);
+            myChart.draw();
+
+            /*rotating the x labels to a 45 degree angle*/
+            x.shapes.selectAll("text").attr("transform",
+                function (d) {
+                  return d3.select(this).attr("transform") + " translate(0, 15) rotate(-45)";
+            });
+
+        
+      /*adjusting defaults of the tooltip*/
+
+          mySeries.getTooltipText = function(e) {
+                	/*console.log(e);*/
+        
+            return [
+              "Cocktail: " + e.aggField[0], 
+              "Ingredient: " + e.x, 
+              "mL: " + e.height,
+                    ];
+          };
+
+
+          mySeries2.shapes.on("mouseover", function(d) {
+                    console.log(d);
+                    if (d.x === 'Carbonated Water') {
+                        var textForBar = 'Carbonated water is featured more than any other non-alcoholic ingredient at Union Lodge #1. Note that no other carbonated beverage is used (coke, etc.)'
+                    } else if (d.x === 'Gin') {
+                        var textForBar = 'Gin is represented more than any other alcoholic ingredient on the menu. Although vodka is sold more than any other clear spirit in America today, it did find widespread popularity until the 1960&#8217s in America, and is not a part of any pre-Prohibition cocktails'
+                    } else if (d.x === 'Rye') {
+                        var textForBar = 'Rye whiskey is a close second to gin. Where many cocktail enthusiast might be accustomed to bourbon with it&#8217s recent resurgence, during the pre-prohibition era, rye was most prevalent.'  
+                    } else {
+                        var textForBar = ' '
+                    };
+                    return [tooltip.style("visibility", "visible").html("Type: " + d.aggField[0] + '<br/>' + "Ingredient: " + d.x + '<br/>' + "Total mL: " + d.height)
+                    .style("top", (d3.event.pageY - 10) + "px").style("left", (d3.event.pageX + 50) + "px"), tooltip2.style("visibility", "visible").html(textForBar)];
+                })
+                /* Position the tooltip div based on mouse movement */.on("mouseout", function(d) {
+                    return [tooltip.style("visibility", "hidden"), tooltip2.style("visibility", "hidden")];
+                });
+      };
+    </script>
+  </head>
+<body>
+  <script type="text/javascript">
+
+  d3.csv("Union_Lodge_Cocktail_Ingredients.csv", draw)
+
+  </script>
+</body>
+</html>
