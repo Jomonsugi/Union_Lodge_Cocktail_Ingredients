@@ -7,7 +7,7 @@ cocktail enthusiast, or even those who fancy a drink every so often, the takeawa
 from this visual might be interesting. As a bartender, I find many people do not have a lot of
 experience with gin or are turned off to the spirit, however it was prominently used in
 many early cocktail recipes. With the resurgence of bourbon over the past
-decade, one might be surprised to find that rye was the whiskey of choice for cocktails during
+decade, one might be surprised to find that rye was most often used for cocktails during
 the pre-prohibition era. It might also interesting to see carbonated water's influence
 on pre-prohibition cocktails, used in classics such as the Gin and Tonic, Tom Collins,
 and the Ramos Gin Fizz. 
@@ -17,7 +17,7 @@ such as which citrus is represented more than any other (lemon) or which bitters
 They can also see what is not present (for example vodka), as it was not used in any 
 American pre-prohibition cocktail recipes.
 
-This repository includes a final version with titled (union_chart_final.html) 
+This repository includes a final version titled (union_chart_final.html) 
 The previous versions are all drafts saved working up to the final charts. 
 
 The dataset was created by me. It lists all the cocktails served at Union Lodge #1 
