@@ -1,26 +1,24 @@
 The clear conclusion from the data visualization included in this repository is that across all cocktails
-on the menu at Union Lodge #1, Rye and Gin are featured over any other alcoholic ingredient. 
+on the menu at Union Lodge #1, Gin and Rye are featured over any other alcoholic ingredient. 
 Carbonated Water is featured over any non-alcoholic ingredient. 
 
 Union Lodge #1 is a pre-prohibition focused cocktail bar. For those that are 
 cocktail enthusiast, or even those who fancy a drink every so often, the takeaway
-from this visual might be interesting. With the resurgence of bourbon over the past
-decade, one might be surprised to find that rye was the whiskey of choice for cocktails during
-the pre-prohibition era. As well, as a bartender, I find many people do not have a lot of
+from this visual might be interesting. As a bartender, I find many people do not have a lot of
 experience with gin or are turned off to the spirit, however it was prominently used in
-many early cocktail recipes. It might also interesting to see carbonated water's influence
+many early cocktail recipes. With the resurgence of bourbon over the past
+decade, one might be surprised to find that rye was the whiskey of choice for cocktails during
+the pre-prohibition era. It might also interesting to see carbonated water's influence
 on pre-prohibition cocktails, used in classics such as the Gin and Tonic, Tom Collins,
 and the Ramos Gin Fizz. 
 
 A viewer that is interested can easily dig deeper for secondary conclusions (if they wish), 
 such as which citrus is represented more than any other (lemon) or which bitters (Angostura).
-They can also see that vodka was not used in any classic, American pre-prohibition cocktail recipes.
+They can also see that is not present, as it was not used in any American pre-prohibition 
+cocktail recipes.
 
-This repository includes a final version with 'Type' used as a variable 
-(union_chart_final.html) and another version that does not include 'Type' 
-as a variable (union_chart_sixth). That version is a bit cleaner, but lacks 
-information that I felt I needed based on feedback. The previous versions are 
-all drafts saved working up to these two final charts. 
+This repository includes a final version with titled (union_chart_final.html) 
+The previous versions are all drafts saved working up to the final charts. 
 
 The dataset was created by me. It lists all the cocktails served at Union Lodge #1 
 in Denver, Colorado that are in the menu. The data set includes
